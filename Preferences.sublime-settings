@@ -7,7 +7,13 @@
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
 	"detect_indentation": true,
+	"draw_indent_guides": true,
+	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store"
+	],
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -19,19 +25,40 @@
 		".sass-cache"
 	],
 	"font_size": 12.0,
+	"fold_buttons": false,
+	"find_selected_text": true,
 	"gutter": true,
+	"hide_minimap": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		".git"
+	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
+	"margin": -1,
+	"match_brackets": true,
+	"match_brackets_angle": false,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"remember_open_files": true,
+	"remember_open_folders": true,
+	"scroll_past_end": true,
+	"show_minimap": false,
 	"soda_classic_tabs": false,
 	"soda_folder_icons": false,
+	"tab_size": 2,
 	"theme": "Spacegray Eighties.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
 	"use_tab_stops": true,
 	"word_wrap": true
 }
