@@ -1,10 +1,11 @@
 {
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
+	"auto_complete_selector": "source, text",
 	"auto_complete_with_fields": true,
- 	"binary_file_patterns":
- 	[
- 		"generated/*",
+	"binary_file_patterns":
+	[
+		"generated/*",
 		"*.tbz2",
 		"*.gzip",
 		"*.tga",
@@ -15,7 +16,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
 	"drag_text": false,
 	"draw_indent_guides": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -45,7 +46,6 @@
 		"*.sublime-workspace"
 	],
 	"find_selected_text": true,
-	"fold_buttons": false,
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -56,14 +56,25 @@
 		".bundle",
 		".sass-cache"
 	],
-	"font_size": 12.0,
+	"font_options":
+	[
+		"no_round",
+		"subpixel_antialias"
+	],
+	"font_size": 11,
 	"gutter": true,
 	"hide_minimap": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"JavaScript",
 		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
 	],
 	"index_exclude_patterns":
 	[
@@ -88,6 +99,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
 	"use_tab_stops": true,
-	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
 	"word_wrap": true
 }
