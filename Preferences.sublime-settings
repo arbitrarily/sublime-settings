@@ -16,7 +16,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended (SL).tmTheme",
 	"drag_text": false,
 	"draw_indent_guides": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -61,7 +61,7 @@
 		"no_round",
 		"subpixel_antialias"
 	],
-	"font_size": 11,
+	"font_size": 10,
 	"gutter": true,
 	"hide_minimap": true,
 	"highlight_line": true,
