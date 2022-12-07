@@ -1,8 +1,12 @@
 {
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
-	"auto_complete_selector": "source, text",
-	"auto_complete_with_fields": true,
+	"auto_complete_size_limit": 4194304,
+	"auto_complete_delay": 50,
+	"auto_complete_use_history": true,
+	"auto_complete_selector": "source, <, php",
+	"auto_complete_triggers": [ {"selector": "text.html", "characters": "<",}],
+	"auto_complete_with_fields": false,
 	"binary_file_patterns":
 	[
 		"generated/*",
@@ -16,7 +20,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended (SL).tmTheme",
+	"color_scheme": "Monokai Pro.sublime-color-scheme",
 	"drag_text": false,
 	"draw_indent_guides": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -56,20 +60,22 @@
 		".bundle",
 		".sass-cache"
 	],
+	"font_face": "Hack Nerd Font",
 	"font_options":
 	[
 		"no_round",
 		"subpixel_antialias"
 	],
-	"font_size": 10,
+	"font_size": 12,
 	"gutter": true,
 	"hide_minimap": true,
+	"hide_sidebar_change_count_trigger": 5,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"JavaScript",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -95,9 +101,10 @@
 	"show_minimap": false,
 	"soda_classic_tabs": false,
 	"soda_folder_icons": false,
-	"theme": "Spacegray Eighties.sublime-theme",
+	"theme": "Monokai Pro.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
 	"use_tab_stops": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"word_separators": "./\\()\"'-:,.;<>_~!@#$%^&*|+=[]{}`~?",
 }
